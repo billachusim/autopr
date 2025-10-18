@@ -6,7 +6,7 @@ import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import ChatFAB from "@/components/ChatFAB";
+// import ChatFAB from "@/components/ChatFAB";
 
 const Index = () => {
   return (
@@ -19,7 +19,7 @@ const Index = () => {
       <Pricing />
       <CTA />
       <Footer />
-      <ChatFAB />
+      {/* <ChatFAB /> */}
     </main>
   );
 };
