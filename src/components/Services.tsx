@@ -42,12 +42,25 @@ const Services = () => {
       ],
     },
     {
-      title: "Business Intelligence",
+      title: "Business Intelligence & Data Analysis",
       subtitle: "See everything that matters — in one dashboard.",
       items: [
         "AI Dashboard: Combine all your marketing, sales, and customer data.",
         "Predictive Insights: Get alerts on when to run promos or scale.",
+        "Data Analysis: Transform raw data into actionable insights for smarter decisions.",
+        "Customer Analytics: Understand behavior patterns and optimize engagement.",
         "Competitor Watch: See what others are doing and how to outperform them.",
+      ],
+    },
+    {
+      title: "Cyber Security & Digital Protection",
+      subtitle: "Protect your digital assets with AI-powered security.",
+      items: [
+        "24/7 Security Monitoring: AI agents watch for threats and vulnerabilities.",
+        "Data Protection: Secure customer data and business information.",
+        "Threat Detection: Early warning systems for cyber attacks and breaches.",
+        "Compliance Management: Stay compliant with data protection regulations.",
+        "Backup & Recovery: Automated backups and disaster recovery systems.",
       ],
     },
   ];

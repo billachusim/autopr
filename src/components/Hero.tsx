@@ -3,18 +3,18 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-accent/5">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 pt-20">
       {/* Animated background grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
       
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-            Mind your business while we handle the rest.
+            Scale Like Fortune 500. Operate Like a Startup.
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-            AutoPR is an AI-powered PR and automation agency that builds your business's digital presence — fast. From website creation to social media, ads, and CRM, we make your business look and perform like a Fortune 500 brand.
+            AutoPR deploys AI agents, intelligent automation, and enterprise-grade workflows to build and manage your complete digital presence—websites, customer relationship management, PR campaigns, and data-driven growth strategies. Look and perform like a Fortune 500 company while you focus on what you do best: running your business.
           </p>
           
           <a 

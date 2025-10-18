@@ -26,7 +26,7 @@ const About = () => {
           </h2>
           
           <p className="text-lg sm:text-xl text-muted-foreground mb-12 sm:mb-16 leading-relaxed">
-            AutoPR combines the power of AI, automation, and creative PR strategy to help businesses thrive online. Whether you're a local service provider or a global company, we handle every aspect of your digital growth — so you can focus on what truly matters: your work.
+            AutoPR combines AI agents, intelligent automation, and proven PR strategies to power your complete digital transformation. From customer relationship management to data-driven workflows, we deploy enterprise-level technology so you can focus on what truly matters: running your business. No staff drama. No complicated dashboards. Just results.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-12">
