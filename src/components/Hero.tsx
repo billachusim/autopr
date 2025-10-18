@@ -10,11 +10,11 @@ const Hero = () => {
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-            Scale Like Fortune 500. Operate Like a Startup.
+            Mind your business, we'll handle the rest.
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-            AutoPR deploys AI agents, intelligent automation, and enterprise-grade workflows to build and manage your complete digital presence—websites, customer relationship management, PR campaigns, and data-driven growth strategies. Look and perform like a Fortune 500 company while you focus on what you do best: running your business.
+            AutoPR deploys AI agents, intelligent automation, and enterprise-grade workflows to build and manage your complete digital presence. From websites, apps, social media management to customer relationship management, PR campaigns, and data-driven growth strategies. Look and perform like a Fortune 500 company while we handle the rest.
           </p>
           
           <a 
