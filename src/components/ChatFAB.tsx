@@ -77,7 +77,7 @@ const ChatFAB = () => {
       {/* Floating Button */}
       <button
         onClick={handleToggle}
-        className="fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 flex items-center justify-center z-50 group"
+        className="fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-br from-cyan-500 via-blue-500 to-green-500 bg-[length:200%_200%] animate-gradient text-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 flex items-center justify-center z-50 group"
       >
         {showPreview ? (
           <X className="w-8 h-8 group-hover:scale-110 transition-transform" />
