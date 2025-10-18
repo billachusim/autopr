@@ -15,7 +15,7 @@ const Footer = () => {
             {/* Contact */}
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <a 
-                href="mailto:hello@autopr.ai" 
+                href="mailto:theprfaculty@gmail.com" 
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-4 w-4" />
@@ -35,7 +35,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a 
-                href="https://facebook.com" 
+                href="https://fb.com/PRFaculty" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -57,7 +57,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/PRFaculty" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

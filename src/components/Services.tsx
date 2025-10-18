@@ -39,6 +39,21 @@ const Services = () => {
         "Influencer Matching: Get paired with influencers that fit your brand.",
         "Social Listening: Track what people are saying about your brand.",
         "Crisis Detection & Response: Early warning systems for negative buzz.",
+        "Event Management & Coordination: Plan and execute impactful brand events.",
+        "Brand Positioning: Strategic positioning to stand out in your market.",
+        "Partnership Opportunities: Connect with strategic partners to amplify reach.",
+      ],
+    },
+    {
+      title: "Intelligent Human Resources",
+      subtitle: "Streamline HR with AI-powered workforce management.",
+      items: [
+        "Recruitment & Talent Acquisition: AI-powered candidate matching and screening.",
+        "Employee Onboarding: Automated onboarding workflows and training programs.",
+        "Performance Management: Track, analyze, and optimize employee performance.",
+        "HR Analytics: Data-driven insights for workforce planning and retention.",
+        "Benefits Administration: Simplified employee benefits management.",
+        "Compliance & Documentation: Automated HR compliance and record-keeping.",
       ],
     },
     {
