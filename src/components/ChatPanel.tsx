@@ -138,10 +138,24 @@ const ChatPanel = ({ isOpen, onClose }: ChatPanelProps) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed bottom-24 right-6 w-96 h-[600px] bg-background border rounded-lg shadow-2xl z-40 flex flex-col">
-      <div className="p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
-        <h3 className="font-semibold text-lg">Chat with AutoPR</h3>
-        <p className="text-sm opacity-90">Ask us anything!</p>
+    <div className="fixed bottom-24 right-6 w-80 h-[500px] bg-background border-2 border-secondary/30 rounded-lg shadow-2xl z-40 flex flex-col">
+      <div className="p-4 border-b bg-gradient-to-r from-secondary via-primary to-secondary text-white rounded-t-lg">
+        <div className="flex items-center justify-between">
+          <div>
+            <h3 className="font-semibold text-lg">Chat with AutoPR</h3>
+            <p className="text-sm opacity-90">Ask us anything!</p>
+          </div>
+          <button
+            onClick={onClose}
+            className="hover:bg-white/20 p-1 rounded transition-all"
+          >
+            <span className="sr-only">Close</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <ScrollArea className="flex-1 p-4" ref={scrollRef}>

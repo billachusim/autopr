@@ -24,8 +24,8 @@ const ChatFAB = () => {
     <>
       {/* Chat Preview Card */}
       {showPreview && !isOpen && (
-        <Card className="fixed bottom-24 right-6 w-80 shadow-2xl border-2 border-primary/20 animate-scale-in z-40">
-          <div className="p-4 border-b bg-gradient-to-r from-primary to-primary/80">
+        <Card className="fixed bottom-24 right-6 w-72 shadow-2xl border-2 border-secondary/30 animate-scale-in z-40">
+          <div className="p-4 border-b bg-gradient-to-r from-secondary via-primary to-secondary">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
@@ -45,29 +45,29 @@ const ChatFAB = () => {
             </div>
           </div>
           
-          <div className="p-4 space-y-4">
+          <div className="p-4 space-y-3">
             <div className="bg-muted rounded-2xl rounded-tl-none p-3">
               <p className="text-sm">
-                👋 Hi! I'm your AutoPR assistant. Ready to transform your digital presence? Let's get started! 🚀
+                👋 Hi! I'm your AutoPR assistant. Ready to transform your digital presence? Check our FAQ below or chat with me! 🚀
               </p>
             </div>
             
             <div className="space-y-2">
-              <p className="text-xs text-muted-foreground">Quick questions:</p>
-              <div className="space-y-2">
-                <Button variant="outline" size="sm" className="w-full justify-start text-left" onClick={openFullChat}>
+              <p className="text-xs text-muted-foreground">Quick FAQ:</p>
+              <div className="space-y-1.5">
+                <Button variant="outline" size="sm" className="w-full justify-start text-left text-xs h-8" onClick={openFullChat}>
                   🌐 What services do you offer?
                 </Button>
-                <Button variant="outline" size="sm" className="w-full justify-start text-left" onClick={openFullChat}>
+                <Button variant="outline" size="sm" className="w-full justify-start text-left text-xs h-8" onClick={openFullChat}>
                   💼 How do I get started?
                 </Button>
-                <Button variant="outline" size="sm" className="w-full justify-start text-left" onClick={openFullChat}>
+                <Button variant="outline" size="sm" className="w-full justify-start text-left text-xs h-8" onClick={openFullChat}>
                   ⚡ What makes AutoPR different?
                 </Button>
               </div>
             </div>
             
-            <Button className="w-full shadow-lg bg-gradient-to-r from-primary to-primary/80" onClick={openFullChat}>
+            <Button className="w-full shadow-lg bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary transition-all" onClick={openFullChat}>
               Open Full Chat
             </Button>
           </div>
