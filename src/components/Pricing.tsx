@@ -119,7 +119,7 @@ const Pricing = () => {
                   </ul>
 
                   <a 
-                    href="https://calendly.com" 
+                    href="https://calendly.com/theprfaculty/30min" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block"

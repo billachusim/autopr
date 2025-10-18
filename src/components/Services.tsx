@@ -112,7 +112,7 @@ const Services = () => {
 
           <div className="text-center mt-12">
             <a 
-              href="https://calendly.com" 
+              href="https://calendly.com/theprfaculty/30min" 
               target="_blank" 
               rel="noopener noreferrer"
             >
