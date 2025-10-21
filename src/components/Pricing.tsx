@@ -14,20 +14,12 @@ const Pricing = () => {
         "Daily clarity calls",
         "Instant homepage design mockup",
         "Business assessment & recommendations",
-        "No credit card required",
-      ],
-    },
-    {
-      name: "Get Online",
-      target: "Offline/Local Businesses",
-      price: "$499",
-      period: "One-time forever fee",
-      features: [
         "Professional AI-powered website",
         "Social media setup & branding",
         "Google Business & Maps integration",
         "Basic automation workflows",
         "24/7 AI agent monitoring",
+        "No credit card required",
       ],
     },
     {
