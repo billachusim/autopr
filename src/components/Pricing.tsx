@@ -5,6 +5,19 @@ import { Check } from "lucide-react";
 const Pricing = () => {
   const pricingTiers = [
     {
+      name: "FREE",
+      target: "Start now, upgrade when you are impressed, no excuses.",
+      price: "$0",
+      period: "Forever free",
+      features: [
+        "Free consultation call",
+        "Daily clarity calls",
+        "Instant homepage design mockup",
+        "Business assessment & recommendations",
+        "No credit card required",
+      ],
+    },
+    {
       name: "Get Online",
       target: "Offline/Local Businesses",
       price: "$499",
@@ -136,8 +149,11 @@ const Pricing = () => {
                           : "bg-muted hover:bg-muted/80 text-foreground"
                       } transition-all duration-300`}
                     >
-                      Book a Call
+                      Start Now
                     </Button>
+                    <p className="text-xs text-muted-foreground text-center mt-2">
+                      Pay later. No credit card required.
+                    </p>
                   </a>
                 </CardContent>
               </Card>
